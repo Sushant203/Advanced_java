@@ -1,0 +1,12 @@
+@charset "UTF-8";
+body{
+	margin:0;
+	padding:0;
+}
+
+#form-data{
+	border: 1px solid black;
+	border-radius: 10px;
+	width: fit-content;
+	padding:10px;
+}
