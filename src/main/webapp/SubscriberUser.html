@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Subscribe Form</title>
+    <style>
+        body {
+            background-color: grey;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .form-container {
+            border: 2px solid white;
+            padding: 20px;
+            margin: 50px auto;
+            width: 300px;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        .form-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        .form-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <form action="SubscriberServlet" method="post">
+           
+           userId:<input type="text" id="userId" name="userId" required>
+            
+          userName:<input type="text" id="username" name="username" required>
+            
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+</body>
+</html>

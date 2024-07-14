@@ -19,4 +19,15 @@
     <servlet-name>MyServlet</servlet-name>
     <url-pattern>/MyServlet</url-pattern>
   </servlet-mapping>
+ 
+  <servlet>
+    <description></description>
+    <display-name>CalculateServlet</display-name>
+    <servlet-name>CalculateServlet</servlet-name>
+    <servlet-class>CalculateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CalculateServlet</servlet-name>
+    <url-pattern>/CalculateServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
